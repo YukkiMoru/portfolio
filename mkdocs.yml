@@ -1,0 +1,10 @@
+site_name: portfolio
+site_url: https://github.com/YukkiMoru/portfolio
+
+theme:
+  name: material
+  language: ja
+
+nav:
+  - ホーム: index.md
+  - About: about.md
