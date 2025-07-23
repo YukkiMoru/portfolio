@@ -43,6 +43,8 @@ theme:
     # - content.code.select        # コード選択機能
     - content.tooltips           # ツールチップ
 
+markdown_extensions:
+  - md_in_html                   # Markdown内でHTML使用
 
 nav:
   - ホーム: index.md
