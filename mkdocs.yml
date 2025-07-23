@@ -1,10 +1,53 @@
-site_name: portfolio
+site_name: YukkiMoru's Portfolio
 site_url: https://github.com/YukkiMoru/portfolio
+copyright: "&copy; 2025 Yukki_Moru"
 
 theme:
   name: material
   language: ja
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+
+  features:
+    # Navigation
+    - navigation.instant          # インスタントローディング
+    - navigation.instant.prefetch # プリフェッチ機能
+    - navigation.tabs            # タブナビゲーション
+    - navigation.tabs.sticky     # スティッキータブ
+    - navigation.sections        # セクション表示
+    - navigation.expand          # 自動展開
+    - navigation.path            # パンくずリスト
+    - navigation.top             # トップに戻るボタン
+    # Search
+    - search.highlight           # 検索ハイライト
+    - search.suggest             # 検索サジェスト
+    # Header
+    - header.autohide           # ヘッダー自動非表示
+    # Content
+    - content.code.copy          # コードコピーボタン
+    # - content.code.select        # コード選択機能
+    - content.tooltips           # ツールチップ
+
 
 nav:
   - ホーム: index.md
   - About: about.md
+  - プロジェクト: projects.md
+  - スキル: skills.md
+  - 連絡先: contact.md
+
