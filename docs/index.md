@@ -1,17 +1,83 @@
-# Welcome to MkDocs
+![プロフィール画像](img/PF-bgc.png)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 自己紹介
 
-## Commands
+はじめまして、YukkiMoruです。  
+IT分野の幅広い領域に興味を持ち、**フロントエンド・バックエンド・インフラ・組込みシステム**など、さまざまな技術を学んでいます。  
+**柔軟に対応できるエンジニア**を目指して、日々スキルアップに取り組んでいます。  
+最近ではチーム開発やイベントに積極的に参加しています。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+## 詳細プロフィール
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### 興味分野
+- 組込みシステム開発（Arduino, Raspberry Pi）
+- データ分析（Python, SQL）
+- バックエンド開発（Java, Python）
+- インフラ・クラウド技術 (docker, Azure, AWS)
+- ゲーム開発（Unreal Engine）
+
+### 学習スタイル
+- 実践を通じた学習を重視
+- チーム開発・コラボレーションを積極的に行う
+- 新しい技術への探究心を持つ
+- 継続的なスキルアップを心がける
+
+---
+
+## 経歴・活動
+
+### 2024年
+- **ICPC 2024 参加**
+- **MetaMe (NTT DOCOMO & 42TOKYO)** - チーム開発でゲーム制作、優秀賞受賞
+- **サポーターズ マンスリーハッカソン vol.15** - Chrome拡張機能開発
+- **サポーターズ ボードゲーム大会 vol.2** - エンジニアコミュニティ参加
+
+### 2025年
+- **自動運転AIチャレンジ2025** - 自動運転技術に関する大会に参加  
+
+---
+
+## 技術スタック
+
+### プログラミング言語
+- **C / C++** - 競技プログラミング・マイコン開発
+- **Java / Kotlin** - マインクラフト開発・アプリケーション開発
+- **Python** - データ分析・機械学習
+- **HTML / CSS / JavaScript** - Web開発
+- **React** - フロントエンド開発
+- **SQL** - データベース操作
+
+### ソフトウェア・ツール
+- **MATLAB** - 数値計算・シミュレーション
+- **Blender** - 3Dモデリング
+- **Unreal Engine** - ゲーム開発（ブループリント）
+- **IntelliJ IDEA** - Java/Kotlin開発
+- **CLion** - C/C++開発
+- **PyCharm** - Python開発
+
+### クラウド・OS
+- **AWS / Azure** - クラウドサービス
+- **Windows / Ubuntu** - オペレーティングシステム
+- **Raspberry Pi** - 組込みシステム開発
+
+### バージョン管理
+- **Git / GitHub** - チーム開発レベル
+
+---
+
+## 今後の目標
+
+IT分野全般に柔軟に対応できるエンジニアを目指し、幅広い領域のスキルを日々研鑽していきたいと考えています。
+
+- フルスタック開発スキルの向上
+- クラウド技術の習得
+
+---
+
+## 連絡先
+
+- **GitHub**: [YukkiMoru](https://github.com/YukkiMoru)
+
+---
