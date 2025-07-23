@@ -1,5 +1,9 @@
 # .gitignoreファイルを作成
 cat << 'EOF' > .gitignore
+
+# python virtual environment
+.venv/
+
 # MkDocs build output
 site/
 
