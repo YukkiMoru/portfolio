@@ -2,11 +2,13 @@
 
 ## Meta Hide and Seek (X-tech Bridge)
 
+**NTT DOCOMOと42TOKYO主催イベントで優秀賞を受賞した3Dかくれんぼゲーム**
+
 ![Meta Hide and Seek](img/metahideandseek.jpg)
 
-NTT DOCOMOと42TOKYO主催のイベントです。  
-実際にweb上でゲームがプレイできるMetameを使用して、
-「鬼ごっこ×かくれんぼ」をコンセプトにしたミニゲーム「Meta Hide and Seek」を開発しました。   
+実際にweb上でプレイできるMetameを用い、「鬼ごっこ×かくれんぼ」をコンセプトにしたミニゲームを開発しました。  
+Unreal Engine（ブループリント）でゲームロジックやUI制御を実装し、Blenderで3Dモデルも制作しました。
+
 **開発期間：** 約3ヶ月  
 **開発環境：** Blender, VSCode  
 **使用技術：** Unreal Engine(ブループリント), JavaScript
@@ -22,10 +24,10 @@ NTT DOCOMOと42TOKYO主催のイベントです。
 
 バージョン管理システムでのコンフリクトを避けるため、担当範囲を明確に分担し、密に連携しました。  
 開発したゲームはイベント内で高く評価され、**優秀賞**を受賞しました。  
-チーム開発や他参加者との交流を通じて多くの学びがありました。
+チーム開発での役割分担や、バージョン管理の重要性を学びました。
 
 詳細・画像: [MetaMe公式ページ](https://42tokyo.jp/landing/x-tech_bridge/2023/)  
-※ X-tech-bridge様のウェブサイトより2025年5月6日引用
+※ X-tech-bridge様のウェブサイトを参照
 
 ## サポーターズ マンスリーハッカソン
 
