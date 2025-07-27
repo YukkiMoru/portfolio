@@ -4,17 +4,58 @@
 
 ![Meta Hide and Seek](img/metahideandseek.jpg)
 
-NTT DOCOMOと42TOKYO主催の「MetaMe」に参加し、チーム「山羊鹿ラボ」として「鬼ごっこ×かくれんぼ」をコンセプトにしたゲームを開発。優秀賞を受賞しました。
+NTT DOCOMOと42TOKYO主催の「MetaMe」内、X-Tech-Bridgeチーム開発イベントに参加し、「鬼ごっこ×かくれんぼ」をコンセプトにしたミニゲーム「Meta Hide and Seek」を開発しました。  
+**開発期間：** 約3ヶ月  
+**開発環境：** Unreal Engine, VSCode  
+**使用技術：** Unreal Engine, Blender
 
-人間の陣営3人と鬼1人に分かれ、人間はAIの解放、鬼は人間の捕獲を目指します。Unreal Engineを使用し、約3ヶ月間の開発と学習を通じて、実践的な技術スキルと協働力を獲得しました。
+4人チームで、既存のコミュニケーションプラットフォームに実装するかくれんぼゲームを制作。  
+人間陣営3人と鬼1人に分かれ、人間はAIの解放、鬼は人間の捕獲を目指します。NPCに見つからないようにオブジェクトに擬態する機能なども実装しました。
+
+**担当箇所：**  
+- ゲーム全体の変数管理  
+- プレイヤー機能の基盤実装  
+- エフェクト制作  
+- Blenderによる3Dモデリング
+
+バージョン管理システムでのコンフリクトを避けるため、担当範囲を明確に分担し、密に連携しました。  
+開発したゲームはイベント内で高く評価され、**優秀賞**を受賞しました。  
+チーム開発や他参加者との交流を通じて多くの学びがありました。
+
+詳細・画像: [MetaMe公式ページ](https://42tokyo.jp/landing/x-tech_bridge/2023/)  
+※ X-tech-bridge様のウェブサイトより2025/5/6引用
 
 詳細: [MetaMe公式ページ](https://42tokyo.jp/landing/x-tech_bridge/)
 
-## Bookmark Copilot (Chrome Extension)
+## サポーターズ マンスリーハッカソン
+
+### Bookmark Copilot (Chrome Extension)
 
 ![Bookmark Copilot](img/bookmark-copilot.png)
 
-サポーターズ マンスリーハッカソン vol.15 に参加し、3人グループで開発した Chrome 拡張機能。AI を使った自動仕分け機能を実装しました。私は主に JavaScript で見た目の改善を担当しました。
+**サポーターズ マンスリーハッカソン vol.15**  
+**開発期間：** 9日間  
+**開発環境：** VSCode  
+**使用言語：** JavaScript, HTML, CSS, Python
+
+3人グループでChrome拡張機能「Bookmark Copilot」（AIによる自動仕分け機能）を開発しました。  
+主にJavaScriptでフロントエンドの実装やUIの改善を担当しました。  
+チームメンバーと協力し、バックエンドもほぼ完成し、フロントエンドも十分に実装できました。
+
+### 就活マッチング×ポートフォリオSNS
+
+![JMandPF-SNS]
+<video controls muted width="320" height="180">
+  <source src="../video/JMandPF-SNS.mp4" type="video/mp4">
+  お使いのブラウザは動画の再生に対応していません。
+</video>
+
+**サポーターズ マンスリーハッカソン vol.14**  
+**開発期間：** 9日間  
+**開発環境：** VSCode, AWS  
+**使用言語：** JavaScript（Next.js）, HTML, CSS（shadcn, Tailwind CSS）, Python（FastAPI）, MariaDB
+
+4人グループでプログラミングを活用したサービスを開発しました。
 
 ## Minecraft Plugin
 
