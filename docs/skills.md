@@ -11,7 +11,7 @@
 ### ソフトウェア・ツール
 - **MATLAB** - 数値計算・シミュレーション
 - **Blender** - 3Dモデリング
-- **Unreal Engine** - ゲーム開発（ブループリント）
+- **Unreal Engine** - ゲーム開発(ブループリント)
 - **IntelliJ IDEA** - Java/Kotlin開発
 - **CLion** - C/C++開発
 - **PyCharm** - Python開発
