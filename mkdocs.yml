@@ -49,4 +49,5 @@ markdown_extensions:
 nav:
   - ホーム: index.md
   - プロジェクト: projects.md
+  - スキル: skills.md
 
