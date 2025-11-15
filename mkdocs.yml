@@ -3,6 +3,8 @@ site_url: https://github.com/YukkiMoru/portfolio
 copyright: "&copy; 2025 Yukki_Moru"
 
 theme:
+  favicon: img/PF_NBG_small.ico
+  logo: img/PF_NBG_small.ico
   name: material
   language: ja
   palette:
@@ -24,27 +26,27 @@ theme:
         name: ライトモードに切り替え
 
   features:
-    # Navigation
-    - navigation.instant          # インスタントローディング
-    - navigation.instant.prefetch # プリフェッチ機能
-    - navigation.tabs            # タブナビゲーション
-    - navigation.tabs.sticky     # スティッキータブ
-    - navigation.sections        # セクション表示
-    - navigation.expand          # 自動展開
-    - navigation.path            # パンくずリスト
-    - navigation.top             # トップに戻るボタン
-    # Search
-    - search.highlight           # 検索ハイライト
-    - search.suggest             # 検索サジェスト
-    # Header
-    - header.autohide           # ヘッダー自動非表示
-    # Content
-    - content.code.copy          # コードコピーボタン
-    # - content.code.select        # コード選択機能
-    - content.tooltips           # ツールチップ
+    # # Navigation
+    - navigation.instant # インスタントローディング
+    # - navigation.instant.prefetch # プリフェッチ機能
+    # - navigation.tabs # タブナビゲーション
+    # # - navigation.tabs.sticky # スティッキータブ
+    # - navigation.sections # セクション表示
+    # - navigation.expand # 自動展開
+    # # - navigation.path # パンくずリスト
+    - navigation.top # トップに戻るボタン
+    # # Search
+    # - search.highlight # 検索ハイライト
+    # - search.suggest # 検索サジェスト
+    # # Header
+    # # - header.autohide # ヘッダー自動非表示
+    # # Content
+    # - content.code.copy # コードコピーボタン
+    # # - content.code.select        # コード選択機能
+    # - content.tooltips # ツールチップ
 
 markdown_extensions:
-  - md_in_html                   # Markdown内でHTML使用
+  - md_in_html # Markdown内でHTML使用
 
 nav:
   - ホーム: index.md

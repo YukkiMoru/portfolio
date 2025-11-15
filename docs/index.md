@@ -1,4 +1,4 @@
-![プロフィール画像](img/PF-bgc.png)
+![プロフィール画像](img/PF_NBG_large.png)
 
 ## 自己紹介
 
