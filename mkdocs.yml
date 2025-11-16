@@ -26,27 +26,22 @@ theme:
         name: ライトモードに切り替え
 
   features:
-    # # Navigation
-    - navigation.instant # インスタントローディング
-    # - navigation.instant.prefetch # プリフェッチ機能
-    # - navigation.tabs # タブナビゲーション
-    # # - navigation.tabs.sticky # スティッキータブ
-    # - navigation.sections # セクション表示
-    # - navigation.expand # 自動展開
-    # # - navigation.path # パンくずリスト
-    - navigation.top # トップに戻るボタン
-    # # Search
-    # - search.highlight # 検索ハイライト
-    # - search.suggest # 検索サジェスト
-    # # Header
-    # # - header.autohide # ヘッダー自動非表示
-    # # Content
-    # - content.code.copy # コードコピーボタン
-    # # - content.code.select        # コード選択機能
-    # - content.tooltips # ツールチップ
+    - navigation.instant
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.sections
+    # - navigation.expand
+    # - navigation.top
+    # - search.highlight
+    # - search.suggest
+    # - content.code.copy
+  
+  font:
+    text: 'Noto Sans JP'
+    code: 'Roboto Mono'
 
-markdown_extensions:
-  - md_in_html # Markdown内でHTML使用
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - ホーム: index.md
