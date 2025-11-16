@@ -50,6 +50,9 @@ markdown_extensions:
 
 nav:
   - ホーム: index.md
-  - プロジェクト: projects.md
+  - プロジェクト: 
+    - X-tech-Bridge: projects/meta_hide_and_seek.md
+    - サポーターズ ハッカソン: projects/supporterz_hackathon.md
+    - Minecraft Plugin: projects/minecraft_plugin.md
   - スキル: skills.md
 

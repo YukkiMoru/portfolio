@@ -1,4 +1,4 @@
-![プロフィール画像](img/PF_NBG_large.png)
+<img src="img/PF_NBG_large.png" alt="プロフィール画像" style="float: right; width: 200px; margin: 0 0 1em 1em;">
 
 ## 自己紹介
 
@@ -9,38 +9,17 @@ IT 分野の幅広い領域に興味を持ち、**フロントエンド・バッ
 
 ---
 
-## 詳細プロフィール
-
-### 興味分野
-
-- 組込みシステム開発（Arduino, Raspberry Pi）
-- データ分析（Python）
-- バックエンド開発（Java, Python）
-- インフラ・クラウド技術 (docker, Azure, AWS)
-- ゲーム開発（Unreal Engine）
-
-### 学習スタイル
-
-- 実践を通じた学習を重視
-- チーム開発・コラボレーションを積極的に行う
-- 新しい技術への探究心を持つ
-- 継続的なスキルアップを心がける
-
----
-
 ## 経歴・活動
 
 ### 2024 年
 
 - **ICPC 2024 参加**
-- **MetaMe (NTT DOCOMO & 42TOKYO)** - チーム開発でゲーム制作、優秀賞受賞
-- **サポーターズ マンスリーハッカソン** - Chrome 拡張機能開発、就活マッチング SNS
+- [**MetaMe (NTT DOCOMO & 42TOKYO)**](projects\meta_hide_and_seek.md) - チーム開発でゲーム制作、優秀賞受賞
+- [**サポーターズ マンスリーハッカソン**](projects/supporterz_hackathon.md)- Chrome 拡張機能開発、就活マッチング SNS
 
 ### 2025 年
 
 - **自動運転 AI チャレンジ 2025** - 自動運転技術に関する大会に参加
-
-詳しい情報については、[projects.md](projects.md)をご覧ください。
 
 ---
 
