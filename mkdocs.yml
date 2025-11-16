@@ -27,6 +27,7 @@ theme:
 
   features:
     - navigation.instant
+    - navigation.toc.integrate
     # - navigation.tabs
     # - navigation.tabs.sticky
     # - navigation.sections
@@ -43,9 +44,13 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+markdown_extensions:
+  - pymdownx.superfences
+
 nav:
   - ホーム: index.md
   - プロジェクト: 
+    - 自動運転AIチャレンジ: projects/automotive_ai_challenge.md
     - X-tech-Bridge: projects/meta_hide_and_seek.md
     - サポーターズ ハッカソン: projects/supporterz_hackathon.md
     - Minecraft Plugin: projects/minecraft_plugin.md

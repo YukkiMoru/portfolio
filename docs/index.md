@@ -14,12 +14,12 @@ IT 分野の幅広い領域に興味を持ち、**フロントエンド・バッ
 ### 2024 年
 
 - **ICPC 2024 参加**
-- [**MetaMe (NTT DOCOMO & 42TOKYO)**](projects\meta_hide_and_seek.md) - チーム開発でゲーム制作、優秀賞受賞
+- [**MetaMe (NTT DOCOMO & 42TOKYO)**](projects/meta_hide_and_seek.md) - チーム開発でゲーム制作、優秀賞受賞
 - [**サポーターズ マンスリーハッカソン**](projects/supporterz_hackathon.md)- Chrome 拡張機能開発、就活マッチング SNS
 
 ### 2025 年
 
-- **自動運転 AI チャレンジ 2025** - 自動運転技術に関する大会に参加
+- [**自動運転 AI チャレンジ 2025**](projects/automotive_ai_challenge.md) - シミュレーション、自動運転
 
 ---
 

@@ -1,6 +1,6 @@
 # Meta Hide and Seek (3Dゲーム開発)
 
-**NTT DOCOMO と 42TOKYO 主催イベントで優秀賞を受賞した 3D かくれんぼゲーム**
+## NTT DOCOMO と 42TOKYO 主催イベントで優秀賞を受賞した 3D かくれんぼゲーム
 
 ![Meta Hide and Seek](../img/metahideandseek.jpg)
 
