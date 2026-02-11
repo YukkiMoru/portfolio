@@ -8,7 +8,7 @@
 ![Automotive AI Challenge](../img/automotive_ai_challenge/final_course.jpg)
 *決勝のコースの様子*
 
-専門外の学生チーム二人が「[自動運転AIチャレンジ](https.jsae.or.jp/jaaic/2025ver/)」に挑みました。
+専門外の学生チーム二人が「[自動運転AIチャレンジ](https://www.jsae.or.jp/jaaic/2025ver/)」に挑みました。
 
 **開発期間：** 約3ヶ月  
 **開発環境：** Docker, Optuna, SciPy, VSCode  
