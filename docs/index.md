@@ -20,6 +20,7 @@ IT 分野の幅広い領域に興味を持ち、**フロントエンド・バッ
 ### 2025 年
 
 - [**自動運転 AI チャレンジ 2025**](projects/automotive_ai_challenge.md) - シミュレーション、自動運転
+- [**Kaggle**](projects/kaggle.md) - コンペティション
 
 ---
 
