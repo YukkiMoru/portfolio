@@ -57,3 +57,7 @@ nav:
     - Minecraft Plugin: projects/minecraft_plugin.md
   - スキル: skills.md
 
+extra:
+  analytics:
+    provider: google
+    property: G-6S83NW7822
