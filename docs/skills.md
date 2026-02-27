@@ -5,26 +5,58 @@
 
 ## プログラミング言語
 
-- **Python** <br>
-  データ分析・機械学習 (NumPy, SciPy, Optuna, MLflow) / GUI開発 (PyQt6) / バックエンド (FastAPI) / 自動化ツール
-- **C / C++** <br>
-  競技プログラミング (ICPC) / 高速な数値計算処理 / マイコン制御
-- **TypeScript / JavaScript** <br>
-  フロントエンド開発 (Next.js, React) / Chrome拡張機能
-- **Java / Kotlin** <br>
-  サーバーサイドプラグイン開発 (Minecraft) / アプリケーション開発
-- **SQL (MariaDB)** <br>
-  データベース設計・操作
+### Python
+**データ分析・機械学習・GUI・自動化**
+<small>NumPy, SciPy, Optuna, PyQt6</small>
+
+### C / C++
+**競技プログラミング (ICPC)、高速数値計算、マイコン制御**
+<small>Ardiuno</small>
+
+### TypeScript / JavaScript
+**モダンなフロントエンド開発、Chrome拡張機能**
+<small>React, Node.js</small>
+
+### Java / Kotlin
+**Minecraftサーバープラグイン、アプリケーション開発**
+<small>Maven, Gradle</small>
+
+### SQL
+**データベース設計・操作**
+<small>MySQL, MariaDB</small>
+
+<br>
 
 ## 開発環境・ツール
 
-- **AWS / Azure** - クラウドインフラ構築
-- **Docker** - コンテナ仮想化による開発・評価環境の統一
-- **Git / GitHub** - チーム開発フロー (PR, Review, Issues) / GitHub Actions
-- **Linux (Ubuntu)** - サーバー構築・開発環境
+### Cloud Infrastructure
+**クラウドインフラ構築・運用**
+<small>AWS, Azure</small>
 
-## クリエイティブツール
+### Containerization
+**開発・評価環境**
+<small>Docker</small>
 
-- **Blender** - 3Dモデリング
-- **Unreal Engine** - ゲームロジック実装 (Blueprint)
-- **MATLAB** - 数値シミュレーション
+### Version Control
+**チーム開発フロー CI/CD**
+<small>Git, GitHub, GitHub Actions</small>
+
+### OS
+**サーバー構築・開発環境**
+<small>Linux (Ubuntu), Windows</small>
+
+<br>
+
+## クリエイティブその他
+
+### Game Engine
+**ゲームロジック実装、シミュレーション**
+<small>Unreal Engine 5 (Blueprint)</small>
+
+### 3D Modeling
+**ゲーム用アセット制作、モデリング**
+<small>Blender</small>
+
+### Simulation
+**数値シミュレーション・解析**
+<small>MATLAB</small>

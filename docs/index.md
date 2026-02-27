@@ -87,11 +87,40 @@
 
 ## 技術スタック概要
 
-<br>
-詳しい技術スタックについては、[Skills Page](skills.md)をご覧ください。
+<div class="tech-stack-grid">
+    <div class="tech-category">
+        <h3>Languages</h3>
+        <div class="tech-tags">
+            <span class="tech-tag">Python (Data/ML)</span>
+            <span class="tech-tag">C++ (Ardiuno)</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Kotlin</span>
+            <span class="tech-tag">Java</span>
+        </div>
+    </div>
+    <div class="tech-category">
+        <h3>Tools & Frameworks</h3>
+        <div class="tech-tags">
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Optuna</span>
+            <span class="tech-tag">Git / GitHub</span>
+        </div>
+    </div>
+    <div class="tech-category">
+        <h3>Creative & Others</h3>
+        <div class="tech-tags">
+            <span class="tech-tag">Unreal Engine 5</span>
+            <span class="tech-tag">Blender</span>
+            <span class="tech-tag">AWS</span>
+            <span class="tech-tag">Linux</span>
+        </div>
+    </div>
+</div>
 
-- **Languages**: Python, C++, TypeScript, JavaScript, Kotlin, Java
-- **Tools**: Docker, Git/GitHub, AWS, Blender, Unreal Engine
+<div style="text-align: right;">
+    <a href="skills/" class="more-skills-btn">詳細なスキルセットを見る →</a>
+</div>
 
 ---
 
