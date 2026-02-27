@@ -1,29 +1,30 @@
 # 技術スタック
 
-### プログラミング言語
+これまでの開発で使用した言語やツールの一覧です。
+単に使用経験があるだけでなく、実際のプロダクト開発や競技コンテストで活用した技術を中心に記載しています。
 
-- **C / C++** - 競技プログラミング・マイコン開発
-- **Java / Kotlin** - マインクラフト開発・アプリケーション開発
-- **Python** - データ分析・機械学習
-- **HTML / CSS / JavaScript** - Web 開発
-- **React** - フロントエンド開発
-- **SQL** - データベース操作
+## プログラミング言語
 
-### ソフトウェア・ツール
+- **Python** <br>
+  データ分析・機械学習 (NumPy, SciPy, Optuna, MLflow) / GUI開発 (PyQt6) / バックエンド (FastAPI) / 自動化ツール
+- **C / C++** <br>
+  競技プログラミング (ICPC) / 高速な数値計算処理 / マイコン制御
+- **TypeScript / JavaScript** <br>
+  フロントエンド開発 (Next.js, React) / Chrome拡張機能
+- **Java / Kotlin** <br>
+  サーバーサイドプラグイン開発 (Minecraft) / アプリケーション開発
+- **SQL (MariaDB)** <br>
+  データベース設計・操作
 
-- **MATLAB** - 数値計算・シミュレーション
-- **Blender** - 3D モデリング
-- **Unreal Engine** - ゲーム開発(ブループリント)
-- **IntelliJ IDEA** - Java/Kotlin 開発
-- **CLion** - C/C++開発
-- **PyCharm** - Python 開発
+## 開発環境・ツール
 
-### クラウド・OS
+- **AWS / Azure** - クラウドインフラ構築
+- **Docker** - コンテナ仮想化による開発・評価環境の統一
+- **Git / GitHub** - チーム開発フロー (PR, Review, Issues) / GitHub Actions
+- **Linux (Ubuntu)** - サーバー構築・開発環境
 
-- **AWS / Azure** - クラウドサービス
-- **Windows / Ubuntu** - オペレーティングシステム
-- **Raspberry Pi** - 組込みシステム開発
+## クリエイティブツール
 
-### バージョン管理
-
-- **Git / GitHub** - チーム開発レベル
+- **Blender** - 3Dモデリング
+- **Unreal Engine** - ゲームロジック実装 (Blueprint)
+- **MATLAB** - 数値シミュレーション

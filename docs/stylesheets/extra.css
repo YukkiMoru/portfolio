@@ -1,11 +1,7 @@
-/* 日本語フォントの設定 */
+/* 日本語フォントの設定: フォールバック（代替）フォントを指定 */
 :root {
   --md-text-font: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Meiryo UI", sans-serif;
-  --md-code-font: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", monospace;
 }
-
-/* Google Fontsから日本語フォントを読み込み */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
 
 /* カスタムカラー変数 */
 :root {
@@ -85,4 +81,104 @@
   --md-hue: 210;
   --md-default-bg-color: #1a1a1a;
   --md-default-fg-color: #e1e5e9;
+}
+
+/* プロジェクトカードのスタイル (index.md用) */
+.md-typeset .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1em;
+}
+.card {
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px; /* 角丸を少し大きく */
+    padding: 1.5rem; /* パディングを増やす */
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    color: white !important; /* テキスト全体を白に強制 */
+    text-shadow: 0 2px 4px rgba(0,0,0,0.8); /* 文字の可読性向上 */
+    height: 100%; /* 高さ揃え */
+    min-height: 250px; /* 最低高さを確保 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none !important; /* aタグの下線を消す */
+}
+/* オーバーレイ：背景画像を暗くして文字を見やすくする */
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.8));
+    z-index: 1;
+    transition: opacity 0.3s ease;
+}
+/* ホバー時に少し明るくする */
+.card:hover::before {
+    opacity: 0.9;
+}
+
+/* コンテンツを前面に出す */
+.card > * {
+    position: relative;
+    z-index: 2;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transform: translateY(-4px);
+    border-color: var(--md-accent-fg-color); /* アクセントカラーで枠を光らせる */
+}
+.card h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white !important; /* タイトルも白で統一 */
+    transition: color 0.2s;
+}
+.card:hover h4 {
+    color: var(--md-accent-fg-color) !important; /* ホバー時にタイトルをアクセントカラーに */
+    text-decoration: none; /* 下線を消す */
+}
+
+.tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2); /* 半透明の白 */
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-size: 0.75rem;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    color: white;
+    backdrop-filter: blur(4px); /* すりガラス効果 */
+}
+.achievement {
+    font-weight: bold;
+    color: #ffeb3b; /* 黄色で強調 */
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+}
+.year-header {
+    border-bottom: 2px solid var(--md-primary-fg-color);
+    padding-bottom: 0.2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+/* 説明文の視認性調整 */
+.card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0.5rem 0 1rem 0;
+    color: rgba(255, 255, 255, 0.95);
 }
