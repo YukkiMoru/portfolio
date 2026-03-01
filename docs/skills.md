@@ -56,7 +56,7 @@
 - **開発**: [Minecraft（マインクラフト）のプラグイン開発](projects/minecraft_plugin.md)や、各種ゲーム制作に使用
 
 ### 【レベル3 A】  SQL
-**MySQL**
+**MariaDB**
 <small>`データベース設計・操作`</small>
 
 - **開発**: [サポーターズハッカソン](projects/supporterz_hackathon.md)でのバックエンド開発に使用
