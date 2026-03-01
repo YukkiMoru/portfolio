@@ -80,7 +80,6 @@
     </div>
 </div>
 
-
 ---
 
 ## 技術スタック概要
@@ -117,6 +116,44 @@
 
 <div style="text-align: right;">
     <a href="skills/" class="more-skills-btn">詳細なスキルセットを見る →</a>
+</div>
+
+---
+
+## Qiita / 技術発信
+
+技術ブログ（Qiita）にて、開発したツールの紹介や技術検証の記事を執筆しています。
+
+<div class="qiita-articles">
+    <a href="https://qiita.com/YukkiMoru/items/878f8e5e96b64d02853e" target="_blank" class="article-card">
+        <div class="article-date">2026年02月14日</div>
+        <h4 class="article-title">API課金なし！Ollama × RTX3070(8GB)で始めるShinkaEvolveコード自動進化</h4>
+        <div class="article-tags">
+            <span class="tag">Python</span>
+            <span class="tag">LLM</span>
+            <span class="tag">ollama</span>
+        </div>
+    </a>
+    <a href="https://qiita.com/YukkiMoru/items/3628e78b23642a59890b" class="article-card">
+        <div class="article-date">2025年11月15日</div>
+        <h4 class="article-title">専門外の2人が挑んだ自動運転AIチャレンジ奮闘記</h4>
+        <div class="article-tags">
+            <span class="tag">自動運転AIチャレンジ</span>
+        </div>
+    </a>
+    <a href="https://qiita.com/YukkiMoru/items/98acd3871c249f24697c" target="_blank" class="article-card">
+        <div class="article-date">2025年09月01日</div>
+        <h4 class="article-title">【自動運転AIチャレンジ2025】面倒なコースデータ作成を効率化！Python製CSVエディタの紹介</h4>
+        <div class="article-tags">
+            <span class="tag">Python</span>
+            <span class="tag">CSV</span>
+            <span class="tag">自動運転AIチャレンジ</span>
+        </div>
+    </a>
+</div>
+
+<div style="text-align: right;">
+    <a href="https://qiita.com/YukkiMoru" target="_blank" class="more-skills-btn">Qiitaプロフィールを見る →</a>
 </div>
 
 ---

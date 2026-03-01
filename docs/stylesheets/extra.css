@@ -233,3 +233,60 @@
     background-color: var(--md-primary-fg-color--dark);
 }
 
+/* -------------------------------
+   Qiita Articles Style (index.md)
+   ------------------------------- */
+.qiita-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 1em;
+}
+
+.article-card {
+    display: block;
+    padding: 15px 20px;
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-default-fg-color--lighter);
+    border-left: 5px solid #55c500; /* Qiita Green */
+    border-radius: 8px;
+    text-decoration: none !important;
+    color: var(--md-default-fg-color) !important;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(85, 197, 0, 0.2);
+    border-color: #55c500;
+}
+
+.article-date {
+    font-size: 0.8em;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 5px;
+}
+
+.article-title {
+    margin: 0 0 10px 0 !important;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--md-default-fg-color) !important;
+}
+
+.article-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.article-tags .tag {
+    background: var(--md-default-fg-color--lighter);
+    color: var(--md-default-fg-color);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.75em;
+    border: none;
+}
+
