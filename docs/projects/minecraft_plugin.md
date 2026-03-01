@@ -1,9 +1,9 @@
-# Minecraft Plugin (7DaysToMine)
+# Minecraft Plugin
 
 ## ゲーム体験を拡張するカスタムプラグイン開発
 
 <video controls>
-  <source src="../../video/7DaysToMine.mp4" type="video/mp4">
+  <source src="../../assets/mc_plugin/7DaysToMine.mp4" type="video/mp4">
   お使いのブラウザは動画の再生に対応していません。
 </video>
 

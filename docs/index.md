@@ -1,13 +1,11 @@
-<img src="img/PF_NBG_large.png" alt="プロフィール画像" style="float: right; width: 220px; margin: 0 0 2em 2em; border-radius: 10px;">
-
-# Portfolio of YukkiMoru
+<img src="assets/logo/PF_NBG_large.png" alt="プロフィール画像" style="float: right; width: 220px; margin: 0 0 2em 2em; border-radius: 10px;">
 
 ## 自己紹介
 
 はじめまして、YukkiMoru です。  
-情報工学を専攻する学生エンジニアです。  
+理工学部で情報系分野を中心に学ぶ学生エンジニアです。
 **フロントエンド・バックエンド・シミュレーション・組込み**まで、幅広い技術領域に関心を持ち、積極的に手を動かしてきました。  
-特に「**チーム開発における自動化・効率化**」や「**技術選定による課題解決**」を得意としています。
+特に「**チーム開発における自動化・効率化**」を得意としています。
 
 ---
 
@@ -15,11 +13,11 @@
 
 <div class="year-header">2025年</div>
 <div class="grid">
-    <a href="projects/automotive_ai_challenge/" class="card" style="background-image: url('img/automotive_ai_challenge/final_course.jpg');">
+    <a href="projects/automotive_ai_challenge/" class="card" style="background-image: url('assets/automotive_ai_challenge/2025_final_course.jpg');">
         <div>
             <h4>自動運転 AI チャレンジ 2025</h4>
             <div class="achievement">🏆 決勝進出 (学生部門5位)</div>
-            <p>独自ツール開発とOptunaによる自動化で、専門知識の不足をエンジニアリングでカバーしました。</p>
+            <p>独自ツール開発とOptunaによる自動化</p>
         </div>
         <div>
             <span class="tag">Python</span>
@@ -27,12 +25,12 @@
             <span class="tag">Optuna</span>
         </div>
     </a>
-    <a href="projects/kaggle/" class="card" style="background-image: url('img/kaggle/GCGC2025/visualizer_v2.png');">
+    <a href="projects/kaggle/" class="card" style="background-image: url('assets/kaggle/GCGC2025/visualizer_v2.png');">
         <div>
             <h4>Kaggle Competition</h4>
             <div class="achievement">Code Golf & Packing</div>
-            <p><strong>NeurIPS 2025</strong>: ホットリロード対応GUIツールで試行錯誤を高速化。<br>
-            <strong>Santa 2025</strong>: C++物理演算の高速化で貢献。</p>
+            <p><strong>NeurIPS 2025</strong>: ホットリロード対応GUIツール<br>
+            <strong>Santa 2025</strong>: C++物理演算の高速化</p>
         </div>
         <div>
             <span class="tag">Python</span>
@@ -44,11 +42,11 @@
 
 <div class="year-header">2024年</div>
 <div class="grid">
-    <a href="projects/meta_hide_and_seek/" class="card" style="background-image: url('img/metahideandseek.jpg');">
+    <a href="projects/meta_hide_and_seek/" class="card" style="background-image: url('assets/x_techbridge/metahideandseek.jpg');">
         <div>
             <h4>Meta Hide and Seek</h4>
-            <div class="achievement">🏆 優秀賞 受賞 (X-Tech)</div>
-            <p>4人チーム開発（NTT DOCOMO & 42TOKYO）。Unreal Engineの実装とGit管理を担当。</p>
+            <div class="achievement">🏆 優秀賞 受賞 (X-TechBridge)</div>
+            <p>4人チーム開発（NTT DOCOMO & 42TOKYO）</p>
         </div>
         <div>
             <span class="tag">UE5</span>
@@ -56,12 +54,12 @@
             <span class="tag">Blender</span>
         </div>
     </a>
-    <a href="projects/supporterz_hackathon/" class="card" style="background-image: url('img/bookmark-copilot.png'); background-position: top center;">
+    <a href="projects/supporterz_hackathon/" class="card" style="background-image: url('assets/supporterz/bookmark-copilot.png'); background-position: top center;">
         <div>
             <h4>サポーターズ ハッカソン</h4>
             <div class="achievement">Webサービス開発</div>
-            <p><strong>Bookmark Copilot</strong>: Chrome拡張機能開発。<br>
-            <strong>JobMatch SNS</strong>: Next.js + FastAPI 開発。</p>
+            <p><strong>Bookmark Copilot</strong>: Chrome拡張機能開発<br>
+            <strong>JobMatch SNS</strong>: Next.js + FastAPI 開発</p>
         </div>
         <div>
             <span class="tag">TypeScript</span>
@@ -73,7 +71,7 @@
         <div>
             <h4>ICPC 2024</h4>
             <div class="achievement">国内予選参加</div>
-            <p>国際大学対抗プログラミングコンテスト。アルゴリズム構築能力を磨きました。</p>
+            <p>国際大学対抗プログラミングコンテスト</p>
         </div>
         <div>
             <span class="tag">C++</span>
@@ -91,19 +89,18 @@
     <div class="tech-category">
         <h3>Languages</h3>
         <div class="tech-tags">
-            <span class="tech-tag">Python (Data/ML)</span>
-            <span class="tech-tag">C++ (Ardiuno)</span>
-            <span class="tech-tag">TypeScript</span>
-            <span class="tech-tag">JavaScript</span>
-            <span class="tech-tag">Kotlin</span>
-            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">C / C++</span>
+            <span class="tech-tag">C#</span>
+            <span class="tech-tag">TypeScript / JavaScript</span>
+            <span class="tech-tag">Java / Kotlin</span>
         </div>
     </div>
     <div class="tech-category">
         <h3>Tools & Frameworks</h3>
         <div class="tech-tags">
+            <span class="tech-tag">React</span>
             <span class="tech-tag">Docker</span>
-            <span class="tech-tag">Optuna</span>
             <span class="tech-tag">Git / GitHub</span>
         </div>
     </div>
@@ -124,14 +121,7 @@
 
 ---
 
-## 今後の目標
-
-**「技術でチーム全体の生産性を底上げできるエンジニア」** を目指しています。  
-個人の開発力向上はもちろん、自動化ツールの導入やドキュメント整備、適切なアーキテクチャ設計を通じて、組織全体の成果に貢献したいと考えています。
-
----
-
 ## 連絡先
 
 - **GitHub**: [YukkiMoru](https://github.com/YukkiMoru)
-- Mail: (ご自身のメールアドレスなどを記載ください)
+- **Google Form**: [Google form](https://docs.google.com/forms/d/e/1FAIpQLSduIKKiZJ4HifRy8F0FaVCiF55lAkufoljYsCqQlqxcH2iouA/viewform)

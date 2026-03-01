@@ -2,7 +2,7 @@
 
 ## 「鬼ごっこ × かくれんぼ」優秀賞受賞作品
 
-![Meta Hide and Seek](../img/metahideandseek.jpg)
+![Meta Hide and Seek](../assets/x_techbridge/metahideandseek.jpg)
 
 ### プロジェクト概要
 

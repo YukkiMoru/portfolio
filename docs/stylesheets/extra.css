@@ -42,8 +42,14 @@
   transition: all 0.3s ease;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   min-height: 3rem;
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
+  word-break: break-word;
+}
+
+.md-content ul li strong:first-child {
+  white-space: nowrap;
+  margin-right: 0.5rem;
 }
 
 /* 小枠のモーション */
@@ -226,3 +232,4 @@
 .more-skills-btn:hover {
     background-color: var(--md-primary-fg-color--dark);
 }
+

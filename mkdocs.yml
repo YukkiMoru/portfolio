@@ -1,10 +1,10 @@
 site_name: YukkiMoru's Portfolio
 site_url: https://github.com/YukkiMoru/portfolio
-copyright: "&copy; 2025 Yukki_Moru"
+copyright: "&copy; 2025-2026 Yukki_Moru"
 
 theme:
-  favicon: img/PF_NBG_small.ico
-  logo: img/PF_NBG_small.ico
+  favicon: assets/logo/PF_NBG_small.ico
+  logo: assets/logo/PF_NBG_small.ico
   name: material
   language: ja
   palette:
