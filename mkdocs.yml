@@ -1,8 +1,10 @@
 site_name: YukkiMoru's Portfolio
 site_url: https://github.com/YukkiMoru/portfolio
-copyright: "&copy; 2025 Yukki_Moru"
+copyright: "&copy; 2025-2026 Yukki_Moru"
 
 theme:
+  favicon: assets/logo/PF_NBG_small.ico
+  logo: assets/logo/PF_NBG_small.ico
   name: material
   language: ja
   palette:
@@ -24,30 +26,38 @@ theme:
         name: ライトモードに切り替え
 
   features:
-    # Navigation
-    - navigation.instant          # インスタントローディング
-    - navigation.instant.prefetch # プリフェッチ機能
-    - navigation.tabs            # タブナビゲーション
-    - navigation.tabs.sticky     # スティッキータブ
-    - navigation.sections        # セクション表示
-    - navigation.expand          # 自動展開
-    - navigation.path            # パンくずリスト
-    - navigation.top             # トップに戻るボタン
-    # Search
-    - search.highlight           # 検索ハイライト
-    - search.suggest             # 検索サジェスト
-    # Header
-    - header.autohide           # ヘッダー自動非表示
-    # Content
-    - content.code.copy          # コードコピーボタン
-    # - content.code.select        # コード選択機能
-    - content.tooltips           # ツールチップ
+    - navigation.instant
+    - navigation.toc.integrate
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.sections
+    - navigation.expand
+    # - navigation.top
+    # - search.highlight
+    # - search.suggest
+    # - content.code.copy
+  
+  font:
+    text: 'Noto Sans JP'
+    code: 'Roboto Mono'
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
-  - md_in_html                   # Markdown内でHTML使用
+  - pymdownx.superfences
 
 nav:
   - ホーム: index.md
-  - プロジェクト: projects.md
+  - プロジェクト: 
+    - 自動運転AIチャレンジ: projects/automotive_ai_challenge.md
+    - X-tech-Bridge: projects/meta_hide_and_seek.md
+    - サポーターズ ハッカソン: projects/supporterz_hackathon.md
+    - Kaggle: projects/kaggle.md
+    - Minecraft Plugin: projects/minecraft_plugin.md
   - スキル: skills.md
 
+extra:
+  analytics:
+    provider: google
+    property: G-6S83NW7822
