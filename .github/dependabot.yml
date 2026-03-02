@@ -1,6 +1,6 @@
 version: 2
 updates:
-  Pythonパッケージ（MkDocsやプラグイン）の定期アップデート
+  # Pythonパッケージ（MkDocsやプラグイン）の定期アップデート
   # uvプロジェクトとして pyproject.toml / uv.lock を検知するように設定
   - package-ecosystem: "pip"
     directory: "/"
