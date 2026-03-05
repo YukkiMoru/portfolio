@@ -1,13 +1,11 @@
-<div class="profile-section">
-    <img src="assets/logo/PF_NBG_large.png" alt="プロフィール画像" class="profile-image">
-    <div class="profile-text">
-        <h2>自己紹介</h2>
-        はじめまして、YukkiMoru です。  
-        理工学部で情報系分野を中心に学ぶ学生エンジニアです。
-        **フロントエンド・バックエンド・シミュレーション・組込み**まで、幅広い技術領域に関心を持ち、積極的に手を動かしてきました。  
-        特に「**チーム開発における自動化・効率化**」を得意としています。
-    </div>
-</div>
+<img src="assets/logo/PF_NBG_large.png" alt="プロフィール画像" style="float: right; width: 220px; margin: 0 0 2em 2em; border-radius: 10px;">
+
+## 自己紹介
+
+はじめまして、YukkiMoru です。  
+理工学部で情報系分野を中心に学ぶ学生エンジニアです。
+**フロントエンド・バックエンド・シミュレーション・組込み**まで、幅広い技術領域に関心を持ち、積極的に手を動かしてきました。  
+特に「**チーム開発における自動化・効率化**」を得意としています。
 
 <div class="wordcloud-wrapper">
     <div id="wordcloud-container" class="wordcloud-collapsed" onclick="toggleWordCloud()">
