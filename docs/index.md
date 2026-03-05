@@ -7,6 +7,13 @@
 **フロントエンド・バックエンド・シミュレーション・組込み**まで、幅広い技術領域に関心を持ち、積極的に手を動かしてきました。  
 特に「**チーム開発における自動化・効率化**」を得意としています。
 
+<div class="wordcloud-wrapper">
+    <div id="wordcloud-container" class="wordcloud-collapsed" onclick="toggleWordCloud()">
+        <img src="assets/wordcloud/wordcloud.svg" alt="興味・関心のキーワード群" id="wordcloud-img">
+    </div>
+    <p style="text-align: center; font-size: 0.8em; color: #888;">私の興味・関心を表す単語群</p>
+</div>
+
 ---
 
 ## 主な活動実績
