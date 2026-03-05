@@ -5,6 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "janome>=0.5.0",
+    "matplotlib>=3.10.8",
     "mkdocs>=1.4.0",
     "mkdocs-material>=9.0.0",
+    "wordcloud>=1.9.6",
 ]
