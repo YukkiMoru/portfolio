@@ -169,3 +169,10 @@
 
 - **GitHub**: [YukkiMoru](https://github.com/YukkiMoru)
 - **Google Form**: [Google form](https://docs.google.com/forms/d/e/1FAIpQLSduIKKiZJ4HifRy8F0FaVCiF55lAkufoljYsCqQlqxcH2iouA/viewform)
+
+<div style="text-align: center; margin: 1em 0;">
+    <div style="display: inline-block; background: white; padding: 0.5em; border-radius: 8px; aspect-ratio: 1 / 1; width: 200px;">
+        <img src="assets/qr.svg" alt="本サイトのQRコード" style="width: 100%; height: auto; display: block;">
+    </div>
+    <p style="font-size:0.85em; color:#666; margin:0.5em 0 0;">本サイトのQRコード</p>
+</div>
