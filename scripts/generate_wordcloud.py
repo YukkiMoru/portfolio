@@ -1,12 +1,9 @@
 import os
 import re
 import urllib.request
-import numpy as np
-from PIL import Image, ImageDraw
 from wordcloud import WordCloud
 from janome.tokenizer import Tokenizer
 
-# Configuration
 FONT_URL = "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansCJKjp-Regular.otf"
 FONT_FILE = "scripts/NotoSansCJKjp-Regular.otf"
 DOCS_DIR = "docs"
@@ -60,7 +57,6 @@ def tokenize_japanese(text):
     for token in t.tokenize(text):
         if token.part_of_speech.startswith('名詞'):
             surface = token.surface
-            # 1文字の単語、数字、ストップワードを除外
             if surface.lower() not in stop_words and len(surface) > 1 and not surface.isdigit():
                 words.append(surface)
                 
@@ -81,13 +77,12 @@ def main():
         
         wc = WordCloud(
             width=1200, height=600, 
-            background_color=None, mode="RGBA", # 背景を透過に設定
-            colormap="cool",                    # サイバー/モダンでかっこいいカラースキーム
+            background_color=None, mode="RGBA", 
+            colormap="cool",                    
             font_path=font_path,
             regexp=r"[\w']+"
         ).generate(words)
-        
-        # SVG形式で出力
+
         svg_data = wc.to_svg(embed_font=True)
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write(svg_data)
