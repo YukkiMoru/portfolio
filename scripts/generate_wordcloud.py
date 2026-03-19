@@ -72,15 +72,20 @@ def main():
     words = tokenize_japanese(text)
     
     if words.strip():
-        print("Generating an awesome WordCloud...")
+        print("Generating WordCloud")
         os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
         
         wc = WordCloud(
-            width=1200, height=600, 
-            background_color=None, mode="RGBA", 
+            width=1820, 
+            height=1100, 
+            background_color=None, 
+            mode="RGBA", 
             colormap="cool",                    
             font_path=font_path,
-            regexp=r"[\w']+"
+            regexp=r"[\w']+",
+            min_font_size=1,    # ここで最小サイズを指定（10〜20くらいがおすすめ）
+            max_words=400,       # 文字が多すぎるとゴチャつくので制限しても良い
+            prefer_horizontal=0.9 # 9割を水平に（名刺として読みやすくするため）
         ).generate(words)
 
         svg_data = wc.to_svg(embed_font=True)

@@ -8,10 +8,10 @@
 特に「**チーム開発における自動化・効率化**」を得意としています。
 
 <div class="wordcloud-wrapper">
-    <div id="wordcloud-container" class="wordcloud-collapsed" onclick="toggleWordCloud()">
-        <img src="assets/wordcloud/wordcloud.svg" alt="興味・関心のキーワード群" id="wordcloud-img">
+    <div id="wordcloud-container">
+        <img src="assets/wordcloud/wordcloud.svg">
     </div>
-    <p style="text-align: center; font-size: 0.8em; color: #888;">私の興味・関心を表す単語群</p>
+    <p style="text-align: center; font-size: 0.8em; color: #888;">私の興味・関心を表すキーワード群</p>
 </div>
 
 ---
