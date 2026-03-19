@@ -54,6 +54,7 @@ nav:
     - X-tech-Bridge: projects/meta_hide_and_seek.md
     - サポーターズ ハッカソン: projects/supporterz_hackathon.md
     - Kaggle: projects/kaggle.md
+    - Cat Detection: projects/cat_detection.md
     - Minecraft Plugin: projects/minecraft_plugin.md
   - スキル: skills.md
 
