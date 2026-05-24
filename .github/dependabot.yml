@@ -8,3 +8,8 @@ updates:
       interval: "weekly" # 毎週チェックする
     labels:
       - "dependencies"
+    automerged: true 
+    # パッチバージョンのみ自動マージ
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"] # メジャーアップデートは手動にする
