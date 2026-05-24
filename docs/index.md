@@ -7,6 +7,15 @@
 **フロントエンド・バックエンド・シミュレーション・組込み**まで、幅広い技術領域に関心を持ち、積極的に手を動かしてきました。  
 特に「**チーム開発における自動化・効率化**」を得意としています。
 
+## 最近のニュース
+
+- 2026-05-24: Kaggle で[Expert](https://www.kaggle.com/yukkimoru)になりました!!!   
+            → グローバルランキング 204949人中2859位 上位1.3%
+- 2026-05-24: Kaggleコンペ [AI Mathematical Olympiad](projects/kaggle) の追記
+[![alt text](assets/kaggle/profile.png)](https://www.kaggle.com/yukkimoru)
+※2026-05-24現在 
+
+
 <div class="wordcloud-wrapper">
     <div id="wordcloud-container">
         <img src="assets/wordcloud/wordcloud.svg">
