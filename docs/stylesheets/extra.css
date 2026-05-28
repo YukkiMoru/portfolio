@@ -9,6 +9,18 @@
   --md-accent-fg-color--transparent: #ff6f001a;
 }
 
+/* 600px以下では自己紹介の右に小さい丸いアイコンを置く */
+@media screen and (max-width: 700px) {
+  img[alt="プロフィール画像"] {
+    display: block !important;
+    width: 56px !important;
+    height: 56px !important;
+    float: none !important;
+    position: absolute !important;
+    right: 30px !important;
+  }
+}
+
 /* ナビゲーションの改善 */
 .md-nav__title {
   font-weight: 600;
@@ -289,4 +301,6 @@
     font-size: 0.75em;
     border: none;
 }
+
+
 
