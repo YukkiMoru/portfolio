@@ -2,7 +2,7 @@
 
 ## データ活用と開発効率化で挑む、自動運転シミュレーション
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mynxk4GBAzA?si=byioFGUdhC0WKqXL&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mynxk4GBAzA?si=byioFGUdhC0WKqXL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![Automotive AI Challenge](../assets/automotive_ai_challenge/2025_final_course.jpg)
 *決勝のコースの様子*
