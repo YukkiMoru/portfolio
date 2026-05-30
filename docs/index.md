@@ -4,17 +4,12 @@
 
 はじめまして、YukkiMoru です。  
 理工学部で情報系分野を中心に学ぶ学生エンジニアです。
-**フロントエンド・バックエンド・シミュレーション・組込み**まで、幅広い技術領域に関心を持ち、積極的に手を動かしてきました。  
-特に「**チーム開発における自動化・効率化**」を得意としています。
+**自動運転・シミュレーション・組込み・AI・Web**まで、幅広い技術領域に関心を持ち、積極的に手を動かしてきました。  
 
-## 最近のニュース
+## ニュース (2026年5月更新)
 
-- 2026-05-24: Kaggle で[Expert](https://www.kaggle.com/yukkimoru)になりました!!!   
-            → グローバルランキング 204949人中2859位 上位1.3%
-- 2026-05-24: Kaggleコンペ [AI Mathematical Olympiad](projects/kaggle) の追記
-[![alt text](assets/kaggle/profile.png)](https://www.kaggle.com/yukkimoru)
-※2026-05-24現在 
-
+Kaggle の[Expert](https://www.kaggle.com/yukkimoru)になりました!!!   
+[![alt text](assets/kaggle/profile.png)](https://www.kaggle.com/yukkimoru)   
 
 <div class="wordcloud-wrapper">
     <div id="wordcloud-container">
@@ -25,14 +20,41 @@
 
 ---
 
-## 主な活動実績
+## 活動実績
+<div class="year-header">2026年</div>
+<div class="grid">
+    <a href="projects/kaggle/Santa2025" class="card" style="background-image: url('assets/kaggle/Santa2025/visualizer_compare.png');">
+        <div>
+            <h4>Santa 2025</h4>
+            <strong>2次元パッキング問題</strong>
+        </div>
+        <div>
+            <span class="tag">Kaggle</span>
+            <span class="tag">Python</span>
+            <span class="tag">C++</span>
+            <span class="tag">JavaScript</span>
+        </div>
+    </a>
+    <a href="projects/kaggle/AIMO2026" class="card" style="background-image: url('assets/kaggle/AIMO2026/AIMO2026.png');">
+        <div>
+            <h4>AIMO</h4>
+            <strong>AIによる数学オリンピック</strong>
+            <div class="achievement">🥉 銅メダル獲得</div>
+        </div>
+        <div>
+            <span class="tag">Kaggle</span>
+            <span class="tag">Python</span>
+            <span class="tag">LLM</span>
+        </div>
+    </a>
+</div>
 
 <div class="year-header">2025年</div>
 <div class="grid">
     <a href="projects/automotive_ai_challenge/" class="card" style="background-image: url('assets/automotive_ai_challenge/2025_final_course.jpg');">
         <div>
             <h4>自動運転 AI チャレンジ 2025</h4>
-            <div class="achievement">🏆 決勝進出 (学生部門5位)</div>
+            <div class="achievement">🏆 決勝進出</div>
             <p>独自ツール開発とOptunaによる自動化</p>
         </div>
         <div>
@@ -41,14 +63,14 @@
             <span class="tag">Optuna</span>
         </div>
     </a>
-    <a href="projects/kaggle/" class="card" style="background-image: url('assets/kaggle/GCGC2025/visualizer_v2.png');">
+    <a href="projects/kaggle/GCGC2025" class="card" style="background-image: url('assets/kaggle/GCGC2025/visualizer_v2.png');">
         <div>
-            <h4>Kaggle Competition</h4>
-            <div class="achievement">Code Golf & Packing</div>
-            <p><strong>NeurIPS 2025</strong>: ホットリロード対応GUIツール<br>
-            <strong>Santa 2025</strong>: C++物理演算の高速化</p>
+            <h4>NeurIPS 2025</h4>
+            <strong>Code Golf</strong>
+            <div class="achievement">🥈 銀メダル獲得</div>
         </div>
         <div>
+            <span class="tag">Kaggle</span>
             <span class="tag">Python</span>
             <span class="tag">C++</span>
             <span class="tag">Qt</span>
@@ -83,7 +105,7 @@
             <span class="tag">FastAPI</span>
         </div>
     </a>
-    <div class="card" style="background: linear-gradient(135deg, #1a237e, #0d47a1);">
+    <div class="card" style="background-image: url('assets/other/ICPC2024.png');">
         <div>
             <h4>ICPC 2024</h4>
             <div class="achievement">国内予選参加</div>
@@ -96,47 +118,13 @@
     </div>
 </div>
 
----
-
-## 技術スタック概要
-
-<div class="tech-stack-grid">
-    <div class="tech-category">
-        <h3>Languages</h3>
-        <div class="tech-tags">
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">C / C++</span>
-            <span class="tech-tag">C#</span>
-            <span class="tech-tag">TypeScript / JavaScript</span>
-            <span class="tech-tag">Java / Kotlin</span>
-        </div>
-    </div>
-    <div class="tech-category">
-        <h3>Tools & Frameworks</h3>
-        <div class="tech-tags">
-            <span class="tech-tag">React</span>
-            <span class="tech-tag">Docker</span>
-            <span class="tech-tag">Git / GitHub</span>
-        </div>
-    </div>
-    <div class="tech-category">
-        <h3>Creative & Others</h3>
-        <div class="tech-tags">
-            <span class="tech-tag">Unreal Engine 5</span>
-            <span class="tech-tag">Blender</span>
-            <span class="tech-tag">AWS</span>
-            <span class="tech-tag">Linux</span>
-        </div>
-    </div>
-</div>
-
 <div style="text-align: right;">
-    <a href="skills/" class="more-skills-btn">詳細なスキルセットを見る →</a>
+    <a href="skills/" class="more-skills-btn">詳細なスキルを見る →</a>
 </div>
 
 ---
 
-## Qiita / 技術発信
+## 技術発信
 
 技術ブログ（Qiita）にて、開発したツールの紹介や技術検証の記事を執筆しています。
 

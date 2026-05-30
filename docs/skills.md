@@ -28,7 +28,7 @@
 
 - **学習**: 大学の授業で基礎を習得
 - **研究**: NumPy, SciPy, PyQt6 を用いて、センサーデータ処理のシステムを構築
-- **コンペ・開発**: Optuna, PyQt6 を [Kaggle](projects/kaggle.md) や[自動運転AIチャレンジ](projects/automotive_ai_challenge.md)で活用
+- **コンペ・開発**: Optuna, PyQt6 を [Kaggle](projects/kaggle/Santa2025.md) や[自動運転AIチャレンジ](projects/automotive_ai_challenge.md)で活用
 
 ### 【レベル4 B】 C / C++
 **C, C++, Arduino**
