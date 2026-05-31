@@ -9,18 +9,21 @@
   --md-accent-fg-color--transparent: #ff6f001a;
 }
 
+/* 600px以下では自己紹介の右に小さい丸いアイコンを置く */
+@media screen and (max-width: 700px) {
+  img[alt="プロフィール画像"] {
+    display: block !important;
+    width: 56px !important;
+    height: 56px !important;
+    float: none !important;
+    position: absolute !important;
+    right: 30px !important;
+  }
+}
+
 /* ナビゲーションの改善 */
 .md-nav__title {
   font-weight: 600;
-}
-
-.md-nav__link {
-  border-radius: 0.1rem;
-  transition: background-color 125ms;
-}
-
-.md-nav__link:hover {
-  background-color: var(--md-accent-fg-color--transparent);
 }
 
 /* 3列グリッドレイアウト */
@@ -33,30 +36,9 @@
   margin: 1rem 0;
 }
 
-/* 小枠 */
-.md-content ul li {
-  background: var(--md-default-bg-color);
-  border: 1px solid var(--md-default-fg-color--lighter);
-  border-radius: 0.5rem;
-  padding: 1rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  min-height: 3rem;
-  /* display: flex; */
-  /* align-items: center; */
-  word-break: break-word;
-}
-
 .md-content ul li strong:first-child {
   white-space: nowrap;
   margin-right: 0.5rem;
-}
-
-/* 小枠のモーション */
-.md-content ul li:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-  border-color: var(--md-accent-fg-color);
 }
 
 /* レスポンシブ対応 */
@@ -189,35 +171,6 @@
     color: rgba(255, 255, 255, 0.95);
 }
 
-/* 技術スタック概要 (index.md) 用のスタイル */
-.tech-stack-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin: 1.5rem 0;
-}
-.tech-category h3 {
-    margin-top: 0;
-    margin-bottom: 0.8rem;
-    font-size: 1.1rem;
-    color: var(--md-primary-fg-color);
-    border-bottom: 2px solid var(--md-default-fg-color--lighter);
-    padding-bottom: 0.3rem;
-}
-.tech-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-.tech-tag {
-    display: inline-block;
-    padding: 4px 10px;
-    border-radius: 4px;
-    background-color: var(--md-default-fg-color--lighter);
-    color: var(--md-default-fg-color);
-    font-size: 0.85rem;
-    font-weight: 500;
-}
 .more-skills-btn {
     display: inline-block;
     margin-top: 1rem;
@@ -289,4 +242,6 @@
     font-size: 0.75em;
     border: none;
 }
+
+
 
