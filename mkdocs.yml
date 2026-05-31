@@ -50,14 +50,18 @@ markdown_extensions:
 nav:
   - ホーム: index.md
   - プロジェクト: 
-    - 自動運転AIチャレンジ: projects/automotive_ai_challenge.md
-    - X-tech-Bridge: projects/meta_hide_and_seek.md
-    - サポーターズ ハッカソン: projects/supporterz_hackathon.md
-    - Kaggle-AIMO2026: projects/kaggle/AIMO2026.md
-    - Kaggle-GCGC2025: projects/kaggle/GCGC2025.md
-    - Kaggle-Santa2025: projects/kaggle/Santa2025.md
-    - Cat Detection: projects/cat_detection.md
-    - Minecraft Plugin: projects/minecraft_plugin.md
+    - 自動運転AIチャレンジ: projects/automotive_ai_challenge/automotive_ai_challenge.md
+    - X Tech Bridge: projects/X_Tech_Bridge/X_Tech_Bridge.md
+    - ハッカソン:
+      - ジョブマッチングSNS: projects/hackathon/jobmatch_sns/jobmatch_sns.md
+      - ブックマーク コパイロット: projects/hackathon/bookmark_copilot/bookmark_copilot.md
+    - コンペティション:
+      - AIMO 2026: projects/competition/AIMO2026/AIMO2026.md
+      - GCGC 2025: projects/competition/GCGC2025/GCGC2025.md
+      - Santa 2025: projects/competition/Santa2025/Santa2025.md
+    - 個人開発:
+      - Cat Detection: projects/personal/cat_detection/cat_detection.md
+      - Minecraft Plugin: projects/personal/minecraft_plugin/minecraft_plugin.md
   - スキル: skills.md
 
 extra:

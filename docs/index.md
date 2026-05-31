@@ -9,11 +9,11 @@
 ## ニュース (2026年5月更新)
 
 Kaggle の[Expert](https://www.kaggle.com/yukkimoru)になりました!!!   
-[![alt text](assets/kaggle/profile.png)](https://www.kaggle.com/yukkimoru)   
+[![alt text](assets/competition/profile.png)](https://www.kaggle.com/yukkimoru)   
 
 <div class="wordcloud-wrapper">
     <div id="wordcloud-container">
-        <img src="assets/wordcloud/wordcloud.svg">
+        <img src="assets/other/wordcloud.svg">
     </div>
     <p style="text-align: center; font-size: 0.8em; color: #888;">私の興味・関心を表すキーワード群</p>
 </div>
@@ -23,7 +23,7 @@ Kaggle の[Expert](https://www.kaggle.com/yukkimoru)になりました!!!
 ## 活動実績
 <div class="year-header">2026年</div>
 <div class="grid">
-    <a href="projects/kaggle/Santa2025" class="card" style="background-image: url('assets/kaggle/Santa2025/visualizer_compare.png');">
+    <a href="projects/competition/Santa2025/Santa2025" class="card" style="background-image: url('projects/competition/Santa2025/visualizer_compare.png');">
         <div>
             <h4>Santa 2025</h4>
             <strong>2次元パッキング問題</strong>
@@ -35,7 +35,7 @@ Kaggle の[Expert](https://www.kaggle.com/yukkimoru)になりました!!!
             <span class="tag">JavaScript</span>
         </div>
     </a>
-    <a href="projects/kaggle/AIMO2026" class="card" style="background-image: url('assets/kaggle/AIMO2026/AIMO2026.png');">
+    <a href="projects/competition/AIMO2026/AIMO2026" class="card" style="background-image: url('projects/competition/AIMO2026/AIMO2026.png');">
         <div>
             <h4>AIMO</h4>
             <strong>AIによる数学オリンピック</strong>
@@ -51,7 +51,7 @@ Kaggle の[Expert](https://www.kaggle.com/yukkimoru)になりました!!!
 
 <div class="year-header">2025年</div>
 <div class="grid">
-    <a href="projects/automotive_ai_challenge/" class="card" style="background-image: url('assets/automotive_ai_challenge/2025_final_course.jpg');">
+    <a href="projects/automotive_ai_challenge/automotive_ai_challenge" class="card" style="background-image: url('projects/automotive_ai_challenge/2025_final_course.jpg');">
         <div>
             <h4>自動運転 AI チャレンジ 2025</h4>
             <div class="achievement">🏆 決勝進出</div>
@@ -63,7 +63,7 @@ Kaggle の[Expert](https://www.kaggle.com/yukkimoru)になりました!!!
             <span class="tag">Optuna</span>
         </div>
     </a>
-    <a href="projects/kaggle/GCGC2025" class="card" style="background-image: url('assets/kaggle/GCGC2025/visualizer_v2.png');">
+    <a href="projects/competition/GCGC2025/GCGC2025" class="card" style="background-image: url('projects/competition/GCGC2025/visualizer_v2.png');">
         <div>
             <h4>NeurIPS 2025</h4>
             <strong>Code Golf</strong>
@@ -80,7 +80,7 @@ Kaggle の[Expert](https://www.kaggle.com/yukkimoru)になりました!!!
 
 <div class="year-header">2024年</div>
 <div class="grid">
-    <a href="projects/meta_hide_and_seek/" class="card" style="background-image: url('assets/x_techbridge/metahideandseek.jpg');">
+    <a href="projects/X_Tech_Bridge/X_Tech_Bridge" class="card" style="background-image: url('projects/X_Tech_Bridge/X_Tech_Bridge.jpg');">
         <div>
             <h4>Meta Hide and Seek</h4>
             <div class="achievement">🏆 優秀賞 受賞 (X-TechBridge)</div>
@@ -92,12 +92,23 @@ Kaggle の[Expert](https://www.kaggle.com/yukkimoru)になりました!!!
             <span class="tag">Blender</span>
         </div>
     </a>
-    <a href="projects/supporterz_hackathon/" class="card" style="background-image: url('assets/supporterz/bookmark-copilot.png'); background-position: top center;">
+    <a href="projects/hackathon/bookmark-copilot/bookmark_copilot/" class="card" style="background-image: url('projects/hackathon/bookmark_copilot/bookmark_copilot.png'); background-position: top center;">
         <div>
-            <h4>サポーターズ ハッカソン</h4>
+            <h4>Bookmark Copilot</h4>
+            <div class="achievement">Chrome拡張機能開発</div>
+            <p>AIがブックマークを自動整理</p>
+        </div>
+        <div>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">Chrome拡張</span>
+        </div>
+    </a>
+    <a href="projects/hackathon/jobmatch_sns/jobmatch_sns" class="card" style="background-image: url('projects/hackathon/jobmatch_sns/jobmatch_sns.png');">
+        <div>
+            <h4>JobMatch & Portfolio SNS</h4>
             <div class="achievement">Webサービス開発</div>
-            <p><strong>Bookmark Copilot</strong>: Chrome拡張機能開発<br>
-            <strong>JobMatch SNS</strong>: Next.js + FastAPI 開発</p>
+            <p>就活マッチング × ポートフォリオ SNS</p>
         </div>
         <div>
             <span class="tag">TypeScript</span>
@@ -165,11 +176,11 @@ Kaggle の[Expert](https://www.kaggle.com/yukkimoru)になりました!!!
 ## 連絡先
 
 - **GitHub**: [YukkiMoru](https://github.com/YukkiMoru)
-- **Google Form**: [Google form](https://docs.google.com/forms/d/e/1FAIpQLSduIKKiZJ4HifRy8F0FaVCiF55lAkufoljYsCqQlqxcH2iouA/viewform)
+- **Contact**: [Google form](https://docs.google.com/forms/d/e/1FAIpQLSduIKKiZJ4HifRy8F0FaVCiF55lAkufoljYsCqQlqxcH2iouA/viewform)
 
 <div style="text-align: center; margin: 1em 0;">
     <div style="display: inline-block; background: white; padding: 0.5em; border-radius: 8px; aspect-ratio: 1 / 1; width: 200px;">
-        <img src="assets/qr.svg" alt="本サイトのQRコード" style="width: 100%; height: auto; display: block;">
+        <img src="assets/other/qr.svg" alt="本サイトのQRコード" style="width: 100%; height: auto; display: block;">
     </div>
     <p style="font-size:0.85em; color:#666; margin:0.5em 0 0;">本サイトのQRコード</p>
 </div>

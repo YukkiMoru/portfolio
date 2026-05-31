@@ -1,9 +1,9 @@
-# Minecraft Plugin
+# Minecraft Plugin (ゲーム開発)
 
 ## ゲーム体験を拡張するカスタムプラグイン開発
 
 <video controls>
-  <source src="../../assets/mc_plugin/7DaysToMine.mp4" type="video/mp4">
+  <source src="../7DaysToMine.mp4" type="video/mp4">
   お使いのブラウザは動画の再生に対応していません。
 </video>
 
@@ -14,11 +14,11 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| **開発環境** | IntelliJ IDEA |
+| **チーム構成** | 個人開発 |
 | **使用技術** | Kotlin, Java (Spigot API), Maven |
-| **主な機能** | カスタムGUIインベントリ, 特定ブロック採掘ツールの実装, イベントリスナーによる行動制限 |
+| **役割** | 設計・実装全般 |
 
-### 技術的詳細と工夫
+### 担当業務と技術的工夫
 
 **1. Kotlinによるモダンな記述**
 JavaベースのSpigot APIを利用しつつ、Plugin開発には **Kotlin** を採用しました。Javaよりも簡潔で安全なコード記述を行い、開発効率を高めました。
@@ -29,3 +29,8 @@ JavaベースのSpigot APIを利用しつつ、Plugin開発には **Kotlin** を
 
 **3. マインクラフトの仕様理解と拡張**
 特定のアイテム（カスタムピッケル）でしか特定のブロックを破壊できないロジックを実装するため、ブロック破壊イベント(`BlockBreakEvent`)をキャンセル・制御する処理を組み込みました。また、Mavenを利用して依存関係を管理し、ビルドプロセスを整備しました。
+
+### 学び・成果
+
+JavaベースのAPIをKotlinで拡張する経験を通じ、オブジェクト指向プログラミングとイベント駆動設計の実践的な理解を深めました。
+

@@ -2,7 +2,7 @@
 
 ## 「鬼ごっこ × かくれんぼ」優秀賞受賞作品
 
-![Meta Hide and Seek](../assets/x_techbridge/metahideandseek.jpg)
+![Meta Hide and Seek](X_Tech_Bridge.jpg)
 
 ### プロジェクト概要
 
@@ -34,6 +34,6 @@ NTT DOCOMO と 42TOKYO が主催するイベントで開発した、Web上でプ
 大規模なゲームエンジンの使用経験に加え、チーム開発におけるコミュニケーションと設計共有の重要性を深く学びました。
 優秀賞という結果は、技術力とチームワークの結晶だと自負しています。
 
-詳細・画像: [MetaMe 公式ページ](https://42tokyo.jp/landing/x-tech_bridge/2023/)  
-※ X-tech-bridge 様のウェブサイトを参照
+### 関連リンク
 
+- [MetaMe 公式ページ](https://42tokyo.jp/landing/x-tech_bridge/2023/)（※ X-tech-bridge 様のウェブサイトを参照）
